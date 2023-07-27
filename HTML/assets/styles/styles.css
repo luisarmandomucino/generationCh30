@@ -1,0 +1,55 @@
+/* selector de tipo etiqueta */
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); */
+}
+h1, 
+h2,  {
+    font-family: fantasy;
+}
+h5 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40%;
+}
+/* h2 {
+color: darkred;
+} */
+/* este es el selector universal (linea de abajo
+ */
+/* *{
+background-color: gray;
+}  */
+
+/* selector de clase  */
+.listas-de-favoritos {
+    color: chocolate;
+}
+
+/* selector de id */
+#lista-chiquitín { 
+color: darkolivegreen;
+}
+/* el div: significa una pseudoclase, en este caso div:hover hace que cuando pases el cursor sobre un elemento, este cambie de color o le puedes dar cualquier otra propiedad */
+div:hover {
+    /* background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); */
+    background-color: blueviolet;
+
+}
+/* visited es para cambiar el link de color cuando ya lo visitaste */
+a:visited {
+    color: deepskyblue;
+}
+
+/* pseudo elementos, son como las pseudo clases pero no describen un estado especial, sino que permiten añadir estilos a una parte concreta del documento, a difetencia de las pseudoclases estos son con :: */
+
+p::first-letter { 
+    color: crimson;
+} 
+
+p::first-line {
+    color: cadetblue;
+}
